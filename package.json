@@ -1,0 +1,27 @@
+{
+  "name": "twelve-pics-tasks",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd -f ./config/prod.env node ./index.js",
+    "dev": "env-cmd -f ./config/dev.env node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arangojs": "^7.0.2",
+    "axios": "^0.20.0",
+    "bull": "^3.18.0",
+    "debug": "^4.2.0",
+    "env-cmd": "^10.1.0",
+    "nodemailer": "^6.4.13",
+    "winston": "^3.3.3",
+    "winston-transport": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "vue-cli-plugin-vue-next": "^0.1.3"
+  }
+}
